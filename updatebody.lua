@@ -8,6 +8,9 @@ function updateFile(filename)
     );
 end
 
-updateFile("saikutu.lua");
-updateFile("m.lua");
-updateFile("saikutu2.lua");
+shell.run("rm saikutu.lua");
+shell.run("rm m.lua");
+shell.run("rm saikutu2.lua");
+updateFile("saikutu");
+updateFile("m");
+updateFile("saikutu2");
