@@ -1,6 +1,4 @@
-local loadresult = os.loadAPI("saikutu");
-print("loadresult = " .. loadresult);
-
+os.loadAPI("saikutu");
 
 function massugu_horu(max)
     local index = 1;
