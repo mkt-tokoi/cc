@@ -1,4 +1,4 @@
-os.loadAPI("saikutu");
+os.loadAPI("saikutu.lua");
 
 function massugu_horu(max)
     local index = 1;
