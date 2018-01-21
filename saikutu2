@@ -12,6 +12,7 @@ function hotte_kaerimo_horu(max)
     turtle.turnRight();
     saikutu.hotteSusumu();
     turtle.turnRight();
+
     massugu_horu(max);
     turtle.turnLeft();
     saikutu.hotteSusumu();

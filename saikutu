@@ -39,4 +39,4 @@ function hottekuru(max)
     end
 end
 
-hottekuru(60);
+--hottekuru(60);
