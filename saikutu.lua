@@ -1,3 +1,5 @@
+module "saikutu"
+
 function horu()
     while turtle.detect() do
         if not turtle.dig() then

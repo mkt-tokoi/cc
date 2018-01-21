@@ -1,0 +1,25 @@
+os.loadAPI("saikutu");
+
+function massugu_horu(max)
+    local index = 1;
+    for i = 1, max do
+        if not saikutu.hotteSusumu() then break; end
+        index = index+1;
+    end
+end
+function hotte_kaerimo_horu(max)
+    massugu_horu(max);
+    turtle.turnRight();
+    saikutu.hotteSusumu();
+    turtle.turnRight();
+    massugu_horu(max);
+    turtle.turnLeft();
+    saikutu.hotteSusumu();
+    turtle.turnLeft();
+end
+
+hotte_kaerimo_horu(60);
+hotte_kaerimo_horu(60);
+hotte_kaerimo_horu(60);
+hotte_kaerimo_horu(60);
+hotte_kaerimo_horu(60);
