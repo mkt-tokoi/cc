@@ -10,3 +10,4 @@ end
 
 updateFile("saikutu.lua");
 updateFile("m.lua");
+updateFile("saikutu2.lua");
